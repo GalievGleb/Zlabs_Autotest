@@ -1,0 +1,15 @@
+smoke_test.py::MyTestClass::test_my_function
+--------------------------------------------------------------------
+Last Page: data:,
+ Duration: 0.12s
+  Browser: Chrome 114.0.5735.199
+   Driver: chromedriver 114.0.5735.90
+Timestamp: 1688384325  (Unix Timestamp)
+     Date: Monday, 3 July 2023
+     Time: 2:38:45 PM  (RTZ 2 (зима), UTC+03:00)
+--------------------------------------------------------------------
+Traceback:
+  File "C:\Users\galie\Desktop\Zlabs_Autotest\main_project\pages\smoke_test.py", line 22, in test_my_function
+    driver = webdriver.Edge(executable_path=driver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
